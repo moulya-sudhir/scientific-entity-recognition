@@ -7,5 +7,6 @@
     - Example Usage: 
         - from webscrape import scrape_pdfs
         - scrape_pdfs('acl','2022', 5)
-- <b>pdfs folder</b> : folder containing pdfs according to conference and year
+- <b>data folder</b> : folder containing all scientific paper data for all 3 conferences
+    - Each folder has a <b>pdfs</b> folder, <b>tokens</b> folder, and an <b>annotations</b> folder.
 - <b>test_webscrape.ipynb</b> : Examples of how to use the webscrape function
