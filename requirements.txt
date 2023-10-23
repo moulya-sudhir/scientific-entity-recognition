@@ -1,4 +1,8 @@
+# Scraping libraries
 requests==2.31.0
 bs4==4.12.2
+# Progress bar libraries
 ipywidgets==8.0.4
 IPython==8.12.0
+# Annotation libraries
+doccano
