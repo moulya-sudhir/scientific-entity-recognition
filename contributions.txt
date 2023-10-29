@@ -9,7 +9,15 @@
 
 2. Project Contributions:
     2a. Noel:
+        - Training data annotation
+        - Training pipeline
+        - Model and hyper parameter experimentation
+        - Prediction pipeline
     2b. Moulya: 
         - Scraped pdfs from ACL, EMNLP, NAACL
         - Tested out variations of BERT, ELMO+BiLSTM, RoBERTa
+        - Training and testing data annotation
     2c. Aishwarya:
+        - Tested out parser implementations for pdfs
+        - Training and testing data annotation
+        - Implemented model freezing methods to improve performance
