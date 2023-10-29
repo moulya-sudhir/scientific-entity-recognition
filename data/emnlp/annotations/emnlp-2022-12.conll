@@ -15,6 +15,7 @@ via O
 Heterogeneous O
 Semantics-Label O
 Graphs O
+
 Recent O
 graph-based O
 models O
@@ -192,6 +193,7 @@ in O
 overall O
 accuracy B-MetricName
 . O
+
 Introduction O
 Spoken B-TaskName
 language I-TaskName
@@ -262,6 +264,7 @@ expressed O
 in O
 the O
 utterance. O
+
 Recently, O
 researchers O
 discovered O
@@ -422,6 +425,7 @@ results O
 and O
 significant O
 speedup. O
+
 Despite O
 the O
 promising O
@@ -443,6 +447,7 @@ from O
 two O
 main O
 issues: O
+
 (1) O
 Ignoring O
 the O
@@ -539,6 +544,7 @@ so O
 the O
 joint O
 task. O
+
 (2) O
 Node O
 and O
@@ -644,6 +650,7 @@ to O
 facilitate O
 better O
 interactions. O
+
 In O
 this O
 paper, O
@@ -819,6 +826,7 @@ advantages O
 of O
 our O
 model. O
+
 The O
 contributions O
 of O
@@ -909,6 +917,7 @@ achieves O
 new O
 state-of-the-art O
 performance. O
+
 Co-guiding O
 Problem O
 Definition O
@@ -964,6 +973,7 @@ into O
 a O
 slot O
 label. O
+
 Next, O
 before O
 diving O
@@ -986,6 +996,7 @@ two O
 heterogeneous B-MethodName
 graphs I-MethodName
 . O
+
 Slot-to-Intent B-MethodName
 Semantics-Label I-MethodName
 Graph I-MethodName
@@ -1114,6 +1125,7 @@ can O
 be O
 denoted O
 as O
+
 G O
 s2i O
 = O
@@ -1133,6 +1145,7 @@ in O
 which O
 V O
 s2i O
+
 is O
 the O
 set O
@@ -1292,6 +1305,7 @@ the O
 local O
 window O
 size. O
+
 Intent-to-Slot B-MethodName
 Semantics-Label I-MethodName
 Graph I-MethodName
@@ -1402,6 +1416,7 @@ aggregation O
 on O
 the O
 graph. O
+
 Mathematically, O
 the O
 I2S-SLG B-MethodName
@@ -1510,6 +1525,7 @@ number O
 of O
 estimated O
 intents. O
+
 Shared O
 Self-Attentive O
 Encoder O
@@ -1551,12 +1567,14 @@ captures O
 the O
 temporal O
 dependencies: O
+
 hi O
 = O
 BiLSTM O
 xi, O
 hi−1, O
 hi+1(1) O
+
 where O
 x O
 i O
@@ -1587,6 +1605,7 @@ captures O
 the O
 global O
 dependencies: O
+
 H O
 ′ O
 = O
@@ -1598,6 +1617,7 @@ d O
 k O
 V O
 (2) O
+
 where O
 H O
 ′ O
@@ -1629,6 +1649,7 @@ utterance O
 word O
 vector O
 matrix. O
+
 Then O
 we O
 concatenate O
@@ -1664,6 +1685,7 @@ and O
 denotes O
 concatenation O
 operation. O
+
 Initial O
 Estimation O
 Multiple B-TaskName
@@ -1723,6 +1745,7 @@ word O
 are O
 obtained O
 by: O
+
 h O
 [I,0] O
 i O
@@ -1740,6 +1763,7 @@ i+1 O
 (3) O
 Shared O
 Self- O
+
 y O
 [I,0] O
 i O
@@ -1762,6 +1786,7 @@ I O
 1 O
 I O
 (4) O
+
 where O
 σ O
 denotes O
@@ -1801,6 +1826,7 @@ voting O
 et O
 al., O
 2021b). O
+
 Slot B-TaskName
 Filling I-TaskName
 (Qin O
@@ -1829,6 +1855,7 @@ parallel O
 slot O
 filling O
 decoding. O
+
 We O
 first O
 apply O
@@ -1844,6 +1871,7 @@ features O
 for O
 slot O
 filling: O
+
 h O
 [S,0] O
 i O
@@ -1859,6 +1887,7 @@ h O
 [S,0] O
 i+1 O
 )(5) O
+
 Then O
 use O
 a O
@@ -1873,6 +1902,7 @@ distribution O
 for O
 each O
 word: O
+
 y O
 [S,0] O
 i O
@@ -1895,6 +1925,7 @@ S O
 1 O
 S O
 (6) O
+
 And O
 the O
 estimated O
@@ -1911,9 +1942,12 @@ i O
 = O
 arg O
 max(y O
+
 [S,0] O
 i O
+
 ). O
+
 Heterogeneous B-MethodName
 Graph I-MethodName
 Attention I-MethodName
@@ -2008,6 +2042,7 @@ nodes O
 and O
 label O
 nodes. O
+
 To O
 model O
 the O
@@ -2074,6 +2109,7 @@ be O
 formulated O
 as O
 follows: O
+
 h O
 l+1 O
 i O
@@ -2147,6 +2183,7 @@ T O
 √ O
 d O
 (7) O
+
 where O
 K O
 denotes O
@@ -2224,6 +2261,7 @@ of O
 node O
 hidden O
 state. O
+
 I2S-HGAT B-MethodName
 can O
 be O
@@ -2231,6 +2269,7 @@ derived O
 like O
 Eq. O
 7. O
+
 Intent O
 Decoding O
 with O
@@ -2322,6 +2361,7 @@ guide O
 the O
 intent O
 decoding: O
+
 where O
 [H O
 [I,0] O
@@ -2534,6 +2574,7 @@ denotes O
 I2S-HGAT B-MethodName
 's O
 parameters. O
+
 Finally, O
 H O
 [S,L] O
@@ -2550,6 +2591,7 @@ distributions O
 for O
 each O
 word: O
+
 Y O
 [S,1] O
 = O
@@ -2562,6 +2604,7 @@ y O
 [S,1] O
 n O
 }. O
+
 And O
 the O
 final O
@@ -2578,6 +2621,7 @@ over O
 Y O
 [S,1] O
 . O
+
 Training O
 Objective O
 Loss O
@@ -2590,6 +2634,7 @@ multiple B-TaskName
 intent I-TaskName
 detection I-TaskName
 is: O
+
 CE(ŷ, O
 y) O
 =ŷ O
@@ -2618,6 +2663,7 @@ y O
 [I,t] O
 i O
 [j](11) O
+
 And O
 the O
 loss O
@@ -2626,6 +2672,7 @@ for O
 slot B-TaskName
 filling I-TaskName
 is: O
+
 LS O
 = O
 1 O
@@ -2643,6 +2690,7 @@ y O
 [S,t] O
 i O
 [j](12) O
+
 where O
 N O
 I O
@@ -2672,6 +2720,7 @@ labels O
 and O
 slot O
 labels. O
+
 Margin O
 Penalty O
 The O
@@ -2746,6 +2795,7 @@ L O
 mp O
 S O
 are: O
+
 L O
 mp O
 I O
@@ -2792,6 +2842,7 @@ y O
 [S,1] O
 i O
 [j](13) O
+
 Model O
 Training O
 The O
@@ -2812,6 +2863,7 @@ of O
 the O
 two O
 tasks: O
+
 L O
 = O
 γ O
@@ -2833,6 +2885,7 @@ mp O
 S O
 ) O
 (14) O
+
 where O
 γ O
 is O
@@ -2858,8 +2911,10 @@ for O
 the O
 two O
 tasks. O
+
 3 O
 Experiments O
+
 Datasets O
 and O
 Metrics O
@@ -2928,6 +2983,7 @@ are O
 all O
 correctly O
 predicted. O
+
 Implementation O
 Details O
 Following O
@@ -3057,6 +3113,7 @@ on O
 the O
 test O
 set. O
+
 All O
 experiments O
 are O
@@ -3070,6 +3127,7 @@ code O
 will O
 be O
 released. O
+
 Main O
 Results O
 The O
@@ -3092,6 +3150,7 @@ have O
 the O
 following O
 observations: O
+
 (1) O
 Co-guiding O
 Net O
@@ -3217,6 +3276,7 @@ clues O
 from O
 initial O
 predictions. O
+
 (2) O
 Co-guiding B-MethodName
 Net I-MethodName
@@ -3331,6 +3391,7 @@ inferior O
 to O
 our O
 model. O
+
 (3) O
 The O
 improvements O
@@ -3415,6 +3476,7 @@ overall B-MetricName
 accuracy I-MetricName
 is O
 boosted. O
+
 Model O
 Analysis O
 We O
@@ -3442,6 +3504,7 @@ shown O
 in O
 Table O
 2. O
+
 Effect O
 of O
 Slot-to-Intent O
@@ -3575,6 +3638,7 @@ improve O
 Overall B-MetricName
 Acc I-MetricName
 . O
+
 Besides, O
 although O
 both O
@@ -3621,6 +3685,7 @@ verified O
 in O
 Sec. O
 3.4.3. O
+
 Effect O
 of O
 Intent-to-Slot O
@@ -3697,6 +3762,7 @@ significantly O
 boost O
 the O
 performance. O
+
 Effect O
 of O
 HSLGs B-MethodName
@@ -3827,6 +3893,7 @@ between O
 the O
 two O
 tasks; O
+
 (2) O
 our O
 proposed O
@@ -3956,6 +4023,7 @@ dependencies O
 among O
 slot O
 hidden O
+
 states. O
 Effect O
 of O
@@ -3966,6 +4034,7 @@ Local O
 Slot O
 Dependencies O
 Qin O
+
 In O
 their O
 model O
@@ -4112,6 +4181,7 @@ the O
 slot O
 local O
 dependencies. O
+
 To O
 verify O
 this, O
@@ -4168,6 +4238,7 @@ the O
 local O
 slot O
 dependencies. O
+
 A.1 O
 Settings O
 To O
@@ -4227,6 +4298,7 @@ as O
 the O
 word O
 representation. O
+
 AdamW O
 (Loshchilov O
 and O
@@ -4249,6 +4321,7 @@ fine-tuned O
 with O
 model O
 training. O
+
 Other O
 model O
 components O
@@ -4286,6 +4359,7 @@ our O
 limited O
 computation O
 resource. O
+
 A.2 O
 Results O
 Table O
@@ -4402,4 +4476,3 @@ boosted, O
 achieving O
 new O
 state-of-the-art. O
-

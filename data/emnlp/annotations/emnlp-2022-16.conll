@@ -7,6 +7,7 @@ Massive O
 Uncurated O
 Instructional O
 Videos O
+
 Video-aided B-TaskName
 grammar I-TaskName
 induction I-TaskName
@@ -145,6 +146,7 @@ trained O
 on O
 in-domain O
 data. O
+
 Introduction O
 Grammar B-TaskName
 induction I-TaskName
@@ -245,6 +247,7 @@ major O
 languages O
 and O
 domains. O
+
 Recently, O
 deep O
 learning O
@@ -401,6 +404,7 @@ annotations O
 on O
 image/video O
 captions. O
+
 The O
 noisy O
 correspondence O
@@ -550,6 +554,7 @@ of O
 the O
 induction O
 models. O
+
 In O
 this O
 paper, O
@@ -728,6 +733,7 @@ from O
 the O
 full O
 set. O
+
 Experiments O
 on O
 three O
@@ -804,12 +810,14 @@ released O
 upon O
 paper O
 acceptance. O
+
 In O
 summary, O
 the O
 main O
 contributions O
 are: O
+
 • O
 We O
 are O
@@ -839,6 +847,7 @@ to O
 the O
 induction O
 model. O
+
 • O
 We O
 propose O
@@ -868,6 +877,7 @@ the O
 video-text O
 matching O
 information. O
+
 • O
 Trained O
 only O
@@ -894,9 +904,11 @@ data O
 across O
 three O
 benchmarks. O
+
 Background O
 and O
 Motivation O
+
 Compound B-MethodName
 PCFGs I-MethodName
 A O
@@ -1045,6 +1057,7 @@ from O
 a O
 prior O
 distribution: O
+
 π O
 r O
 = O
@@ -1054,8 +1067,11 @@ z; O
 z O
 ∼ O
 p(z). O
+
 ( O
+
 )1 O
+
 where O
 θ O
 represents O
@@ -1075,6 +1091,7 @@ are O
 defined O
 as O
 follows: O
+
 π O
 S→A O
 = O
@@ -1155,6 +1172,7 @@ T O
 ; O
 z])) O
 ,(2) O
+
 where O
 A O
 ∈ O
@@ -1197,6 +1215,7 @@ are O
 neural O
 encoding O
 functions. O
+
 Optimizing O
 the O
 C-PCFG B-MethodName
@@ -1216,6 +1235,7 @@ for O
 all O
 possible O
 z: O
+
 log O
 p O
 θ O
@@ -1230,6 +1250,7 @@ p O
 θ O
 (t|z)p(z)dz O
 (3) O
+
 where O
 T O
 G O
@@ -1263,6 +1284,7 @@ bound O
 ELBO(σ; O
 ϕ, O
 θ): O
+
 ELBO(σ; O
 ϕ, O
 θ) O
@@ -1278,6 +1300,7 @@ p O
 −KL[q O
 ϕ O
 (z|σ)||p(z)],(4) O
+
 where O
 q O
 ϕ O
@@ -1311,6 +1334,7 @@ via O
 the O
 inside O
 algorithm. O
+
 The O
 KL O
 term O
@@ -1336,6 +1360,7 @@ Gaussian O
 and O
 Welling, O
 2014). O
+
 Multi-Modal B-MethodName
 Compound I-MethodName
 PCFGs I-MethodName
@@ -1445,6 +1470,7 @@ all O
 label-specific O
 span O
 representations: O
+
 c O
 = O
 |N O
@@ -1465,6 +1491,7 @@ h O
 l O
 , O
 (5) O
+
 where O
 {p(k|c, O
 σ)|1 O
@@ -1538,6 +1565,7 @@ span O
 from O
 the O
 parser: O
+
 s O
 mm O
 (v, O
@@ -1549,6 +1577,7 @@ mm O
 (Ξ, O
 Ψ), O
 (6) O
+
 where O
 h O
 mm O
@@ -1599,6 +1628,7 @@ and O
 v O
 ′ O
 : O
+
 ω O
 i O
 (c) O
@@ -1614,6 +1644,7 @@ exp(u O
 j O
 c) O
 ,(7) O
+
 o(Ξ,Ψ) O
 = O
 M O
@@ -1626,6 +1657,7 @@ i O
 ψ O
 i O
 ),(8) O
+
 h O
 mm O
 (Ξ,Ψ) O
@@ -1659,6 +1691,7 @@ o(Ξ, O
 + O
 , O
 (9) O
+
 where O
 Ξ O
 ′ O
@@ -1726,6 +1759,7 @@ loss O
 are O
 jointly O
 optimized. O
+
 Limitation O
 and O
 Motivation O
@@ -1787,6 +1821,7 @@ in O
 such O
 training O
 setups. O
+
 As O
 a O
 result, O
@@ -1834,6 +1869,7 @@ performance O
 and O
 cross-domain O
 robustness? O
+
 Training O
 a O
 Grammar O
@@ -1920,6 +1956,7 @@ text O
 and O
 video O
 encoders. O
+
 Harvesting O
 Training O
 Instances O
@@ -2114,6 +2151,7 @@ punctuation O
 ".", O
 "?", O
 "!"). O
+
 Video B-TaskName
 clip I-TaskName
 extraction I-TaskName
@@ -2258,6 +2296,7 @@ start O
 and O
 end O
 times. O
+
 Model: O
 Pre-Trained B-MethodName
 Compound I-MethodName
@@ -2517,6 +2556,7 @@ representation O
 v, O
 denoted O
 as, O
+
 v O
 = O
 AvgPool({f O
@@ -2528,6 +2568,7 @@ i O
 L O
 i=1 O
 ),(10) O
+
 where O
 AvgPool O
 indicates O
@@ -2625,6 +2666,7 @@ we O
 expect O
 to O
 learn O
+
 |N O
 | O
 different O
@@ -2676,6 +2718,7 @@ k O
 } O
 |N O
 | O
+
 k=1 O
 , O
 and O
@@ -2768,6 +2811,7 @@ we O
 predicted, O
 denoted O
 as: O
+
 τ O
 = O
 MaxPool(ReLU(f O
@@ -2788,6 +2832,7 @@ c O
 k O
 (τ O
 ),(11) O
+
 where O
 MaxPool O
 is O
@@ -2802,6 +2847,7 @@ a O
 ReLU O
 activation O
 function. O
+
 Training. O
 As O
 shown O
@@ -2851,6 +2897,7 @@ hinge I-MetricName
 loss I-MetricName
 as O
 following, O
+
 h(v, O
 c) O
 = O
@@ -2886,12 +2933,14 @@ v O
 , O
 (12 O
 ) O
+
 where O
 ϵ O
 is O
 a O
 positive O
 margin, O
+
 [•] O
 + O
 = O
@@ -2899,6 +2948,7 @@ max(0, O
 •), O
 v O
 ′ O
+
 is O
 a O
 clip O
@@ -2924,6 +2974,7 @@ is O
 correspondingly O
 defined O
 as, O
+
 s(v, O
 σ) O
 = O
@@ -2931,6 +2982,7 @@ s(v, O
 c∈σ O
 p(c|σ)h(v, O
 c),(13) O
+
 where O
 p(c|σ) O
 is O
@@ -2961,6 +3013,7 @@ videotext B-MetricName
 matching I-MetricName
 loss I-MetricName
 : O
+
 L(ϕ, O
 θ) O
 = O
@@ -2971,6 +3024,7 @@ L(ϕ, O
 + O
 αs(v, O
 σ),(14) O
+
 where O
 α O
 is O
@@ -2993,6 +3047,7 @@ the O
 most O
 likely O
 tree O
+
 t O
 * O
 without O
@@ -3045,6 +3100,7 @@ p O
 µ O
 ϕ O
 (σ)),(15) O
+
 where O
 µ O
 ϕ O
@@ -3073,6 +3129,7 @@ algo. O
 1969;Younger, O
 1967;Kasami, O
 1966). O
+
 Evaluation O
 We O
 discard O
@@ -3179,6 +3236,7 @@ on O
 each O
 testing O
 set. O
+
 Implementation O
 Details O
 We O
@@ -3402,13 +3460,16 @@ MSRVTT B-DatasetName
 with O
 manual O
 labels. O
+
 3 O
 https://spacy.io/ O
 target O
 dataset. O
+
 Main O
 Results O
 Figure O
+
 Cross-dataset O
 Evaluation O
 We O
@@ -3567,6 +3628,7 @@ learn O
 consistent O
 grammar O
 induction. O
+
 Effectiveness O
 of O
 Pre-Training O
@@ -3634,6 +3696,7 @@ CLIP O
 et O
 al., O
 2021). O
+
 Comparing O
 Rows O
 1 O
@@ -3797,6 +3860,7 @@ information O
 motion) O
 is O
 ignored. O
+
 Qualitative O
 Analysis O
 In O
@@ -3895,4 +3959,3 @@ make O
 the O
 correct O
 prediction. O
-

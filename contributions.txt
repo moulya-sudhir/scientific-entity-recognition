@@ -1,0 +1,15 @@
+1. Annotated Data Instances:
+    1a. train.conll: 
+                {'Noel': (1, 31128), 
+                'Moulya': (31129, 63676), 
+                'Aishwarya': (63677, 98055)}
+    1b. test.conll:
+                {'Moulya': (1, 5449), 
+                'Aishwarya': (5450, 9375)} 
+
+2. Project Contributions:
+    2a. Noel:
+    2b. Moulya: 
+        - Scraped pdfs from ACL, EMNLP, NAACL
+        - Tested out variations of BERT, ELMO+BiLSTM, RoBERTa
+    2c. Aishwarya:
