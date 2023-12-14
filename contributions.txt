@@ -1,23 +1,8 @@
-1. Annotated Data Instances:
-    1a. train.conll: 
-                {'Noel': (1, 31128), 
-                'Moulya': (31129, 63676), 
-                'Aishwarya': (63677, 98055)}
-    1b. test.conll:
-                {'Moulya': (1, 5449), 
-                'Aishwarya': (5450, 9375)} 
-
-2. Project Contributions:
-    2a. Noel:
-        - Training data annotation
-        - Training pipeline
-        - Model and hyper parameter experimentation
-        - Prediction pipeline
-    2b. Moulya: 
-        - Scraped pdfs from ACL, EMNLP, NAACL
-        - Tested out variations of BERT, ELMO+BiLSTM, RoBERTa
-        - Training and testing data annotation
-    2c. Aishwarya:
-        - Tested out parser implementations for pdfs
-        - Training and testing data annotation
-        - Implemented model freezing methods to improve performance
+1. Project Contributions:
+    1a. Noel:
+        - 
+    1b. Moulya: 
+        - Modified Abstract, incorporated Methodology, Results, and ⁠Future work in the Final Report
+        - Performed human evaluation for NLI for over 500 sentences.
+    1c. Aishwarya:
+        - 
