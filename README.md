@@ -1,4 +1,6 @@
 # end-to-end-NLP
+# The code for HW4 can be found in the ANLP-hw4_2.ipynb file.
+# The rest of this repo is legacy code for HW2
 
 ## Link to Website: https://aclanthology.org/
 
