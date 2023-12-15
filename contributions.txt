@@ -1,11 +1,11 @@
 1. Project Contributions:
     1a. Noel:
-        - Hypothesis design and theorizations   
+        - Hypothesis design and theorizations, including extensive literature review  
         - Code for hypothesis testing, running of evaluations, and experimentation   
         - Designing analysis and evalution methods, code for analysis and generation of results   
         - Performed human evaluation for Log prob, bert score, and NLI for over 800 sentences.  
         - Indentified future direction and shortcomings of current work  
-        - Researched literature  for similar work  
+        - Final report integration and fact checking  
     1b. Moulya: 
         - Modified Abstract, incorporated Methodology, Results, and ⁠Future work in the Final Report
         - Performed human evaluation for NLI for over 500 sentences.
