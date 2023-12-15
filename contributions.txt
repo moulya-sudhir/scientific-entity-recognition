@@ -10,4 +10,7 @@
         - Modified Abstract, incorporated Methodology, Results, and ⁠Future work in the Final Report
         - Performed human evaluation for NLI for over 500 sentences.
     1c. Aishwarya:
-        - 
+        - Created charts and comparisons for analysis of specific examples that are performing well and performing poorly for the final report. 
+        - Performed human evaluation for NLI and Bert scores for over 700 sentences.
+        - Final report proofreading and editing
+        - Did the initial baseline analysis and literature review (similar to assignment 3)
